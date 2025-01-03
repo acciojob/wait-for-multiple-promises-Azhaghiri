@@ -1,8 +1,8 @@
-//your JS code here. If required.
 const output = document.getElementById('output');
 
 // Add initial Loading row
 const loadingRow = document.createElement('tr');
+loadingRow.id = 'loading'; // Add ID for testing
 const loadingCell = document.createElement('td');
 loadingCell.colSpan = 2;
 loadingCell.textContent = 'Loading...';
